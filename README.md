@@ -9,7 +9,7 @@ This repository is a set of scripts that will allow you easily install the lates
 2. Clone this repo
 
 ```
-git clone https://github.com/gshipley/installcentos.git
+git clone https://github.com/Aida8585/installcentos.git
 ```
 
 3. Execute the installation script
@@ -44,7 +44,7 @@ $ export DISK="/dev/sda"
 3. Run the automagic installation script as root with the environment variable in place:
 
 ```
-curl https://raw.githubusercontent.com/gshipley/installcentos/master/install-openshift.sh | INTERACTIVE=false /bin/bash
+curl https://raw.githubusercontent.com/Aida8585/installcentos/master/install-openshift.sh | INTERACTIVE=false /bin/bash
 ```
 
 ## Development
@@ -53,7 +53,7 @@ For development it's possible to switch the script repo
 
 ```
 # Change location of source repository
-$ export SCRIPT_REPO="https://raw.githubusercontent.com/gshipley/installcentos/master"
+$ export SCRIPT_REPO="https://raw.githubusercontent.com/Aida8585/installcentos/master"
 $ curl $SCRIPT_REPO/install-openshift.sh | /bin/bash
 ```
 
